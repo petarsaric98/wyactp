@@ -88,6 +88,15 @@ def youtube_embed(video_id, caption):
 def divider():
     return '<hr class="my-14 border-slate-100 dark:border-slate-800"/>'
 
+def pdf_download(filename, label):
+    return f'''<div class="mt-14 mb-8 text-center border-t border-slate-200 dark:border-slate-800 pt-14" data-aos="fade-up">
+        <a href="lectures/{filename}" download class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-900 to-blue-950 hover:from-cyan-700 hover:to-blue-900 text-white font-bold rounded-2xl transition-all duration-300 hover:shadow-xl hover:shadow-cyan-900/40 hover:-translate-y-1 border border-blue-800/50">
+            <span class="text-2xl">📥</span> 
+            <span>{label}</span>
+            <span class="ml-2 text-cyan-400 font-black text-lg">↓</span>
+        </a>
+    </div>'''
+
 # ─────────────────────────────────────────────────────────────────────────────
 # MODULE CONTENT
 # ─────────────────────────────────────────────────────────────────────────────
@@ -213,6 +222,7 @@ def module1():
         </div>''',
 
         callout("🎯", "Why the Distinction Matters", "This is not a debate about policy details. The two sides have different understandings of what a human person <em>is</em>. If you accept that the state or an international body can define the person, every one of the UNFPA's three demands becomes logically consistent. If you insist dignity is intrinsic, all three collapse."),
+        pdf_download("WYAlecture_1.pdf", "Download Full Lecture 1 (PDF)"),
     ])
 
 
@@ -354,6 +364,7 @@ def module2():
         blockquote("We make men without chests and expect of them virtue and enterprise. We laugh at honour and are shocked to find traitors in our midst.", "C.S. Lewis, <em>The Abolition of Man</em>"),
 
         callout("⚠️", "The Tao", "Lewis called the shared moral tradition of all humanity 'the Tao' — the cross-cultural intuition that cruelty is wrong, courage matters, loyalty binds. Destroy it and you have nothing left — not even a reason to be free."),
+        pdf_download("WYA_Lecture_2.pdf", "Download Full Lecture 2 (PDF)"),
     ])
 
 
@@ -434,6 +445,7 @@ def module3():
         blockquote("He who has a 'why' to live can bear with almost any 'how'.", "Friedrich Nietzsche, quoted by Frankl"),
 
         callout("💡", "Frankl's Reversal", "Stop asking what you expect from life. Ask what life expects from you. Each person, in each situation, has a unique answer — expressible only through action and conduct, not words."),
+        pdf_download("WYA_Lecture_3.pdf", "Download Full Lecture 3 (PDF)"),
     ])
 
 
@@ -524,6 +536,7 @@ def module4():
         ),
 
         callout("💡", "The Synthesis", "Gandhi, the Burmese student, and the Brussels Declaration reach the same conclusion: <em>the transformation of society happens from the inside out</em>. Soul-force, solidarity, and the family are not soft alternatives to power — they are the only durable ones."),
+        pdf_download("WYA_Lecture_4.pdf", "Download Full Lecture 4 (PDF)"),
     ])
 
 # ─────────────────────────────────────────────────────────────────────────────
