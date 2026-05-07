@@ -27,7 +27,9 @@ const CTP_DATA = {
             "Totalitarian Work State": "A state where work is idolized and leisure is destroyed, reducing persons to functional units.",
             "Malthusian": "Relating to the theory that population growth will always outpace food supply, leading to catastrophe (falsified by human ingenuity).",
             "Inalienable": "Unable to be taken away from or given away by the possessor (e.g., human rights).",
-            "Jurisprudence": "The theory or philosophy of law."
+            "Jurisprudence": "The theory or philosophy of law.",
+            "TMB": "Treaty Monitoring Bodies; groups of independent experts who monitor treaty compliance.",
+            "Opinio Juris": "Opinio juris sive necessitatis; the belief that a state's practice is legally obligatory."
         },
         hr: {
             "NSSM 200": "Memorandum o nacionalnoj sigurnosti br. 200 (1974.), koji je tvrdio da rast stanovništva u zemljama u razvoju ugrožava američku sigurnost.",
@@ -41,7 +43,9 @@ const CTP_DATA = {
             "Ljudi bez prsa": "Lewisov opis ljudi koji imaju intelekt i prohtjeve, ali im nedostaje moralna mašta koja bi ih povezala.",
             "Relativizam": "Doktrina prema kojoj znanje, istina i moral ovise o kulturi, društvu ili povijesnom kontekstu i nisu apsolutni.",
             "Satyagraha": "Gandhijev pojam koji znači 'ustrajnost u istini' ili 'sila istine'.",
-            "Jurisprudencija": "Teorija ili filozofija prava."
+            "Jurisprudencija": "Teorija ili filozofija prava.",
+            "TMB": "Treaty Monitoring Bodies (Tijela za praćenje ugovora); skupine neovisnih stručnjaka koji nadziru usklađenost s ugovorima.",
+            "Opinio Juris": "Opinio juris sive necessitatis; uvjerenje države da je određena praksa pravno obvezujuća."
         }
     },
     quizzes: {
@@ -262,16 +266,45 @@ const CTP_DATA = {
                 title: "Knowledge Check: Module 7",
                 questions: [
                     {
-                        q: "What is John Finnis's main argument regarding the legal order?",
-                        options: ["Law is for the sake of the state", "Priority of the human person", "Law is a bundle of duties only"],
-                        correct: 1,
-                        feedback: "Finnis insists that 'All law is made for the sake of human beings' (The Priority of Persons)."
+                        q: "How is international law primarily derived?",
+                        options: ["Only through written treaties", "Only through customary practice", "Both through treaties and customary international law", "Through the decisions of individual world leaders"],
+                        correct: 2,
+                        feedback: "International law is primarily derived from two main sources. Treaties (written agreements between states) are the most explicit form. However, Customary International Law is equally valid; it arises from a general and consistent practice of states followed by them out of a sense of legal obligation."
                     },
                     {
-                        q: "What was Jacques Maritain's paradox about human rights?",
-                        options: ["We agree on the 'Why' but not the 'What'", "We agree on the 'What' but not the 'Why'", "Human rights are impossible to define"],
+                        q: "What is the role of Treaty Monitoring Bodies (TMBs)?",
+                        options: ["To enforce military sanctions on non-compliant nations", "To rewrite international treaties every five years", "To serve as a global police force for human rights", "TMBs are a group of experts that monitor countries and give recommendations with the intention to ensure that State countries are living up to the treaties they have signed and reservations they have agreed upon"],
+                        correct: 3,
+                        feedback: "Treaty Monitoring Bodies (such as the Human Rights Committee) consist of independent experts. Their role is to examine reports submitted by states to ensure compliance with specific treaties. While their recommendations are highly influential and authoritative, they are generally not legally binding in the same way a court's judgment is."
+                    },
+                    {
+                        q: "What does the concept of Opinio Juris refer to?",
+                        options: ["A written law that has been signed by all UN members", "Actions taken or opinions held that are believed to be in accordance with the law, though not actually expressed in the law", "The process of translating laws into multiple languages", "A state's right to ignore international law during wartime"],
                         correct: 1,
-                        feedback: "Nations agreed on the practical list of rights while fundamentally disagreeing on their philosophical origins."
+                        feedback: "Opinio juris sive necessitatis (or simply Opinio Juris) is a subjective element required to establish customary international law. It refers to the belief by a state that its particular practice is rendered obligatory by the existence of a rule of law requiring it. It distinguishes a legal obligation from mere habit or courtesy."
+                    }
+                ]
+            },
+            hr: {
+                title: "Provjera znanja: Modul 7",
+                questions: [
+                    {
+                        q: "Kako se prvenstveno izvodi međunarodno pravo?",
+                        options: ["Samo putem pisanih ugovora", "Samo putem običajne prakse", "Putem ugovora i međunarodnog običajnog prava", "Odlukama pojedinačnih svjetskih vođa"],
+                        correct: 2,
+                        feedback: "Međunarodno pravo se prvenstveno izvodi iz dva glavna izvora. Ugovori (pisani sporazumi između država) su najizrazitiji oblik. Međutim, međunarodno običajno pravo jednako je valjano; ono proizlazi iz opće i dosljedne prakse država koju one slijede iz osjećaja pravne obveze."
+                    },
+                    {
+                        q: "Koja je uloga TMBs (Treaty Monitoring Bodies)?",
+                        options: ["Nametanje vojnih sankcija državama koje se ne pridržavaju pravila", "Ponovno pisanje međunarodnih ugovora svakih pet godina", "Služenje kao globalna policija za ljudska prava", "TMBs su skupine stručnjaka koji nadziru zemlje i daju preporuke s namjerom osiguravanja da države žive u skladu s ugovorima koje su potpisale i rezervama na koje su pristale"],
+                        correct: 3,
+                        feedback: "TMBs (poput Odbora za ljudska prava) sastoje se od neovisnih stručnjaka. Njihova je uloga ispitivanje izvješća koja podnose države kako bi se osigurala usklađenost s određenim ugovorima. Iako su njihove preporuke vrlo utjecajne i autoritativne, one općenito nisu pravno obvezujuće na isti način kao presuda suda."
+                    },
+                    {
+                        q: "Na što se odnosi koncept Opinio Juris?",
+                        options: ["Pisani zakon koji su potpisale sve članice UN-a", "Radnje ili mišljenja za koja se vjeruje da su u skladu sa zakonom, iako nisu izričito navedena u zakonu", "Proces prevođenja zakona na više jezika", "Pravo države da zanemari međunarodno pravo tijekom rata"],
+                        correct: 1,
+                        feedback: "Opinio juris sive necessitatis (ili jednostavno Opinio Juris) je subjektivni element potreban za uspostavu međunarodnog običajnog prava. Odnosi se na uvjerenje države da je njezina određena praksa obvezna zbog postojanja pravnog pravila koje to zahtijeva. Razlikuje pravnu obvezu od puke navike ili ljubaznosti."
                     }
                 ]
             }
