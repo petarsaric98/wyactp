@@ -26,16 +26,20 @@ const CTP_DATA = {
             "Concupiscence": "In Pieper's sense, a restless, superficial pursuit of impressions that destroys real sight.",
             "Totalitarian Work State": "A state where work is idolized and leisure is destroyed, reducing persons to functional units.",
             "Malthusian": "Relating to the theory that population growth will always outpace food supply, leading to catastrophe (falsified by human ingenuity).",
-            "Inalienable": "Unable to be taken away from or given away by the possessor (e.g., human rights).",
-            "Jurisprudence": "The theory or philosophy of law.",
+            "Inalienable": "Unable to be taken away from or given away by the possessor (e.g., human rights).",            "Jurisprudence": "The theory or philosophy of law.",
             "TMB": "Treaty Monitoring Bodies; groups of independent experts who monitor treaty compliance.",
-            "Opinio Juris": "Opinio juris sive necessitatis; the belief that a state's practice is legally obligatory."
+            "Opinio Juris": "Opinio juris sive necessitatis; the belief that a state's practice is legally obligatory.",
+            "Post-Totalitarian": "Havel's term for a system that is totalitarian in a fundamentally different way from classical dictatorships, manipulating everyday life through ideology and consumerism.",
+            "Living a Lie": "Behaving as if one believes the system's mystifications and quietly tolerating them, which anchors and perpetuates the post-totalitarian system.",
+            "Living in Truth": "Daring to challenge the system's norm, aligning one's actions with reason, conscience, and genuine dignity.",
+            "The Greengrocer": "Havel's metaphor illustrating how individuals display slogans not out of conviction, but as a shield of obedience to be left in peace.",
+            "Blind Automatism": "The self-preservation drive of the post-totalitarian system that subordinates individuals and treats them as mere tools."
         },
         hr: {
             "NSSM 200": "Memorandum o nacionalnoj sigurnosti br. 200 (1974.), koji je tvrdio da rast stanovništva u zemljama u razvoju ugrožava američku sigurnost.",
             "Realpolitik": "Sustav politike ili načela utemeljen na praktičnim, a ne moralnim ili ideološkim razmatranjima.",
             "Urođeno dostojanstvo": "Uvjerenje da svako ljudsko biće posjeduje vrijednost koja mu je svojstvena i koju mu država ne može dati niti oduzeti.",
-            "Živjeti u istini": "Koncept Václava Havela o odupiranju totalitarizmu kroz male, iskrene svakodnevne postupke.",
+            "Život u istini": "Odupiranje sistemskim normama, usklađivanje vlastitog djelovanja s razumom, savješću i istinskim dostojanstvom.",
             "Integralni razvoj": "Koncept SSM-a (WYA) prema kojem autentičan napredak mora biti fizički, duhovan, mentalni i emocionalni.",
             "I-Ti": "Filozofski koncept Martina Bubera o odnosu izgrađenom na uzajamnom priznavanju osobnosti, umjesto objektivizacije 'Ja-Ono'.",
             "I-Ono": "Odnos u kojem se drugi tretira kao objekt, alat ili sredstvo za postizanje cilja.",
@@ -45,7 +49,12 @@ const CTP_DATA = {
             "Satyagraha": "Gandhijev pojam koji znači 'ustrajnost u istini' ili 'sila istine'.",
             "Jurisprudencija": "Teorija ili filozofija prava.",
             "TMB": "Treaty Monitoring Bodies (Tijela za praćenje ugovora); skupine neovisnih stručnjaka koji nadziru usklađenost s ugovorima.",
-            "Opinio Juris": "Opinio juris sive necessitatis; uvjerenje države da je određena praksa pravno obvezujuća."
+            "Opinio Juris": "Opinio juris sive necessitatis; uvjerenje države da je određena praksa pravno obvezujuća.",
+            "Posttotalitarizam": "Havelov izraz za sustav koji je totalitaran na suštinski drugačiji način od klasičnih diktatura, manipulirajući svakodnevnicom kroz ideologiju i konzumerizam.",
+            "Život u laži": "Ponašanje kao da se vjeruje u režimske mistifikacije i njihovo tiho toleriranje, čime pojedinci učvršćuju i održavaju posttotalitarni sustav.",
+            "Trgovac povrćem": "Havelova metafora koja ilustrira kako pojedinci ističu slogane ne iz uvjerenja, već kao štit pokornosti da bi ih se pustilo na miru.",
+            "Slijepi automatizam": "Samoodrživi pogon posttotalitarnog sustava koji podređuje pojedince i tretira ih kao puka oruđa."
+        }edince i tretira ih kao puka oruđa."
         }
     },
     quizzes: {
@@ -257,6 +266,23 @@ const CTP_DATA = {
                         options: ["Growth with no people", "Rapid income growth despite massive population increase", "Survival through heavy UN aid"],
                         correct: 1,
                         feedback: "Hong Kong proved that people are a resource, not a liability, by flourishing despite a population explosion."
+                    }
+                ]
+            },
+            hr: {
+                title: "Provjera znanja: Modul 6",
+                questions: [
+                    {
+                        q: "Koja je ključna razlika između relacionizma i relativizma?",
+                        options: ["Relativizam koristi fiksne točke; relacionizam ne", "Relacionizam koristi fiksne točke za pronalaženje istine; relativizam poriče istinu", "Nema razlike"],
+                        correct: 1,
+                        feedback: "Relacionizam je objektivna metoda; relativizam je radikalna tvrdnja da nikakva konačna istina nije moguća."
+                    },
+                    {
+                        q: "Što je bilo 'nemoguće čudo' Hong Konga?",
+                        options: ["Rast bez ljudi", "Brzi rast prihoda unatoč ogromnom porastu stanovništva", "Preživljavanje zahvaljujući velikoj pomoći UN-a"],
+                        correct: 1,
+                        feedback: "Hong Kong je dokazao da su ljudi resurs, a ne teret, napredujući unatoč eksploziji stanovništva."
                     }
                 ]
             }
